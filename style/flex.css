@@ -3,17 +3,22 @@
     padding: 0;
 }
 html {
+    margin: 0 auto;
     background-color: #ccc;
 }
 
 body {
+    background-color: #fff;
+    max-width: 1300px;
+    min-height: 1000px;
     margin: 0 auto;
     height: 100%;
     width: 100%;
-    min-width: 500px;
     max-width: 1366px;
 }
 .a1 {
+    height: 80px;
+    background-color: #ccc;
     color: green;
     text-align: center;
     margin-top: 100px;
@@ -27,7 +32,9 @@ body {
 }
 
 h2 {
-    margin-bottom: 30px;
+    height: 80px;
+    
+    background-color: #ccc;
     color: black;
     text-align: center;
 }
@@ -38,6 +45,10 @@ h2 > span {
 }
 
 .add_img {
+    padding: 50px;
+    outline: 1px solid #000;
+    min-width: 1000px;
+    min-height: 500px;
     display: flex;
     justify-content: space-around;
 }
