@@ -25,3 +25,24 @@ body {
     background-color: #fff;
     
 }
+
+h2 {
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+}
+
+h2 > span {
+    color: red;
+    font-size: 2em;
+}
+
+.add_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add_img img {
+    width: 200px;
+    height: 200px;
+}
