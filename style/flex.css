@@ -27,6 +27,7 @@ body {
 
 .a1 {
     height: 80px;
+    line-height: 80px;
     background-color: #ccc;
     color: green;
     text-align: center;
