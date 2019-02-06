@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-html {
-    margin: 0 auto;
-    background-color: #fff;
+.conteyner {
+    padding-top: 200px;
+    max-width: 1900px;
+    min-height: 2000px;
+    background: url(../images/9.jpg)no-repeat;
 }
 
 body {
@@ -13,16 +15,14 @@ body {
     max-width: 1300px;
     min-height: 1000px;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    max-width: 1366px;
+    height: 100^;
 }
+
 .script_1 {
     width: 200px;
     height: 200px;
     outline: 1px solid #000;
-     margin: 30px 25px 0px 25px;
-   
+    margin: 30px 25px 0px 25px;
 }
 
 .a1 {
@@ -30,7 +30,6 @@ body {
     background-color: #ccc;
     color: green;
     text-align: center;
-    margin-top: 100px;
 }
 
 .go {
@@ -53,6 +52,8 @@ h2 > span {
 }
 
 .add_img {
+    margin: 0 auto;
+    max-width: 1300px;
     padding: 20px;
     min-height: 500px;
     display: -webkit-flex;
@@ -66,7 +67,6 @@ h2 > span {
 
 .foto {
     margin: 30px 25px 0px 25px;
-    
 }
 
 .foto img {
