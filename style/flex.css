@@ -15,7 +15,6 @@ body {
     max-width: 1300px;
     min-height: 100%;
     margin: 0 auto;
-    
 }
 
 .script_1 {
@@ -69,22 +68,16 @@ h2 > span {
 .foto {
     margin: 30px 25px 0px 25px;
 }
+
 .foto img {
     width: 200px;
     height: 200px;
-    display: block;
     outline: 1px solid #000;
 }
-.foto:nth-child(5){
+
+.foto:nth-child(5) {
     width: 200px;
     height: 200px;
-    display: block;
-    outline: none;
     background-color: blue;
+    outline: 1px solid blue;
 }
-
-
-
-
-
-
