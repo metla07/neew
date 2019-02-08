@@ -1,4 +1,6 @@
-﻿https://metla07.github.io/neew/.
+izmena
+
+https://metla07.github.io/neew/.
 
 Общая работа:
 
@@ -14,4 +16,8 @@
 
 5-Асия
 
+<<<<<<< HEAD
 тест 
+=======
+тест 
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
