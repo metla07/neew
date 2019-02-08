@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/flex.css">
     <title>Совместная&nbsp;работа</title>
 </head>
-
+<div class="conteyner">
 <body>
     <div class="a1">
         <h1>Наша первая совместная работа</h1> </div>
@@ -17,8 +16,50 @@
         <div class="foto"><img src="https://media.giphy.com/media/DGWAx8d3IkICs/giphy.gif" alt="Andrey" title="Бухнёмс?"></div>
         <div class="foto"><img src="images\6rqgxp.jpg" alt="NONE" title="А что еще?"></div>
         <div class="foto"><img src="images/moi_avatar.gif" alt="img_avatar.gif"></div>
-        <div class="foto"><img src="" alt=""></div>
-     </div>
+        <div class="foto"><img src="images/balon.png" alt="воздушные шары"></div>
+        <div class="script_1">
+    <script>
+        window.onload = function () {
+            var drawingCanvas = document.getElementById('smile');
+            if (drawingCanvas && drawingCanvas.getContext) {
+                var context = drawingCanvas.getContext('2d');
+                // Рисуем окружность 
+                context.strokeStyle = "#000";
+                context.fillStyle = "#fc0";
+                context.beginPath();
+                context.arc(100, 100, 50, 0, Math.PI * 2, true);
+                context.closePath();
+                context.stroke();
+                context.fill();
+                // Рисуем левый глаз 
+                context.fillStyle = "#fff";
+                context.beginPath();
+                context.arc(84, 90, 8, 0, Math.PI * 2, true);
+                context.closePath();
+                context.stroke();
+                context.fill();
+                // Рисуем правый глаз 
+                context.beginPath();
+                context.arc(116, 90, 8, 0, Math.PI * 2, true);
+                context.closePath();
+                context.stroke();
+                context.fill();
+                // Рисуем рот
+                context.beginPath();
+                context.moveTo(70, 115);
+                context.quadraticCurveTo(100, 130, 130, 115);
+                context.quadraticCurveTo(100, 150, 70, 115);
+                context.closePath();
+                context.stroke();
+                context.fill();
+            }
+        }
+    </script>
+    <canvas id="smile" width="200" height="200">
+        <p>Ваш браузер не поддерживает рисование.</p>
+    </canvas>
+    </div>
+    </div>
 </body>
-
+</div>
 </html>
