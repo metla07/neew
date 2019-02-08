@@ -3,27 +3,42 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
 html {
     margin: 0 auto;
     background-color: #fff;
+=======
+.conteyner {
+    padding-top: 200px;
+    max-width: 2000px;
+    min-height: 100%;
+    background: url(../images/9.jpg)no-repeat;
+>>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
 }
 
 body {
     background-color: #fff;
     max-width: 1300px;
-    min-height: 1000px;
+    min-height: 100%;
     margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    max-width: 1366px;
 }
 
+<<<<<<< HEAD
+=======
+.script_1 {
+    width: 200px;
+    height: 200px;
+    outline: 1px solid #000;
+    margin: 30px 25px 0px 25px;
+}
+
+>>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
 .a1 {
     height: 80px;
+    line-height: 80px;
     background-color: #ccc;
     color: green;
     text-align: center;
-    margin-top: 100px;
 }
 
 .go {
@@ -46,6 +61,11 @@ h2 > span {
 }
 
 .add_img {
+<<<<<<< HEAD
+=======
+    margin: 0 auto;
+    max-width: 1300px;
+>>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
     padding: 20px;
     min-height: 500px;
     display: -webkit-flex;
@@ -53,12 +73,17 @@ h2 > span {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+    justify-content: space-around;
+>>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
     flex-flow: wrap;
 }
 
 .foto {
     margin: 30px 25px 0px 25px;
+<<<<<<< HEAD
 }
 
 .foto img {
@@ -66,4 +91,19 @@ h2 > span {
     height: 200px;
     display: block;
     outline: 1px solid #000;
+=======
+}
+
+.foto img {
+    width: 200px;
+    height: 200px;
+    outline: 1px solid #000;
+}
+
+.foto:nth-child(5) {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    outline: 1px solid blue;
+>>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
 }
