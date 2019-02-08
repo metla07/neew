@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     margin: 0 auto;
-    background-color: #ccc;
+    background-color: #fff;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     width: 100%;
     max-width: 1366px;
 }
+
 .a1 {
     height: 80px;
     background-color: #ccc;
@@ -23,17 +25,16 @@ body {
     text-align: center;
     margin-top: 100px;
 }
+
 .go {
     margin: 100px auto;
     width: 70px;
     height: 70px;
     background-color: #fff;
-    
 }
 
 h2 {
     height: 80px;
-    
     background-color: #ccc;
     color: black;
     text-align: center;
@@ -45,19 +46,24 @@ h2 > span {
 }
 
 .add_img {
-    padding: 50px;
-    outline: 1px solid #000;
-    min-width: 1000px;
+    padding: 20px;
     min-height: 500px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-flow: wrap;
 }
 
-.add_img img {
+.foto {
+    margin: 30px 25px 0px 25px;
+}
+
+.foto img {
     width: 200px;
     height: 200px;
+    display: block;
+    outline: 1px solid #000;
 }
