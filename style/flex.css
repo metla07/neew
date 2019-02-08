@@ -4,16 +4,22 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 html {
     margin: 0 auto;
     background-color: #fff;
 =======
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 .conteyner {
     padding-top: 200px;
     max-width: 2000px;
     min-height: 100%;
     background: url(../images/9.jpg)no-repeat;
+<<<<<<< HEAD
 >>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 }
 
 body {
@@ -24,7 +30,10 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 .script_1 {
     width: 200px;
     height: 200px;
@@ -32,7 +41,10 @@ body {
     margin: 30px 25px 0px 25px;
 }
 
+<<<<<<< HEAD
 >>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 .a1 {
     height: 80px;
     line-height: 80px;
@@ -62,10 +74,15 @@ h2 > span {
 
 .add_img {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     margin: 0 auto;
     max-width: 1300px;
 >>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
+=======
+    margin: 0 auto;
+    max-width: 1300px;
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
     padding: 20px;
     min-height: 500px;
     display: -webkit-flex;
@@ -77,12 +94,16 @@ h2 > span {
     justify-content: space-between;
 =======
     justify-content: space-around;
+<<<<<<< HEAD
 >>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
     flex-flow: wrap;
 }
 
 .foto {
     margin: 30px 25px 0px 25px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -92,6 +113,8 @@ h2 > span {
     display: block;
     outline: 1px solid #000;
 =======
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 }
 
 .foto img {
@@ -105,5 +128,8 @@ h2 > span {
     height: 200px;
     background-color: blue;
     outline: 1px solid blue;
+<<<<<<< HEAD
 >>>>>>> c3415f1373cf73bc15c3a701bfabb775aea1bab1
+=======
+>>>>>>> b06e3257e31f1494e10907bdb75bd837858397c4
 }
